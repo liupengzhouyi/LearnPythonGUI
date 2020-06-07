@@ -1,14 +1,13 @@
 import sys
-import HelloWorld
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-
+import Test
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     MainWindow = QMainWindow()
-    ui = HelloWorld.Ui_MainWindow()
+    ui = Test.Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
