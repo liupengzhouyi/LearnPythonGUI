@@ -7,13 +7,11 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets, QtQuickWidgets
-from PyQt5.QtGui import QPainter, QColor, QPixmap, QImage
-from PyQt5.QtWidgets import QLabel, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QPainter, QColor, QPixmap
+from PyQt5.QtWidgets import QLabel, QVBoxLayout, QHBoxLayout
 from PyQt5 import QtQuickWidgets
-from PIL import Image
-import numpy as np
-from MyFuncation import getN
+from 手写数字界面.MyFuncation import getN
 
 
 class Canvas(QLabel):

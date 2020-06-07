@@ -1,5 +1,5 @@
 import sys
-import HelloWorld
+from HelloWorld import HelloWorld
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 

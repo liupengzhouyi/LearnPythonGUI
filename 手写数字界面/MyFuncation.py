@@ -1,6 +1,6 @@
 import torch
 
-from getNumber import ConvNet
+from 手写数字界面.getNumber import ConvNet
 
 def getN(image):
     # Device configuration
