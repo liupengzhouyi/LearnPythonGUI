@@ -1,9 +1,9 @@
 import sys
-from HelloWorld import HelloWorld
+
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-
+import HelloWorld
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
